@@ -1,5 +1,6 @@
 #support
     .textbox
+        width: 100%
         padding: 130px 0
         h1
             font-weight: 700
@@ -17,12 +18,19 @@
             font-size: 22px
     .bgc
         background-color: #35b6c1
-    @media screen and ( max-width:1400px  )
-        .textbox
-            padding: 96px 0
-    @media screen and ( max-width:1200px  )
+    @media screen and ( max-width:576px  )
         .textbox
             padding: 30px 0
-        
-        
-        
+            h1
+                font-size: 50px
+                margin: 50px 40px 0 0
+            .btn
+                padding: 10px 60px
+                margin: 50px 0 70px 0
+    @media screen and ( max-width:470px  )
+        .textbox
+            h1
+                margin: 31px 100px 0 0
+            .btn
+                padding: 10px 75px
+                margin: 50px 0 20px 0px
