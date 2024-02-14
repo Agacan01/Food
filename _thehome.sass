@@ -1,6 +1,8 @@
 #thehome
     background-color: #f1f8f9
     .textbox
+        align-items: flex-start
+        text-align: start
         h1
             color: #36b3bd
             font-size: 60px
@@ -17,10 +19,14 @@
             color: #ffff
             font-size: 20px
     @media screen and ( max-width:992px  )
-        .btn
-            margin-bottom: 50px
+        .textbox
+            align-items: center
+            .btn
+                margin-bottom: 50px
+    @media screen and ( max-width:768px  )
+        .textbox
+            text-align: center
     @media screen and ( max-width:390px  )
         .textbox
             h1
                 font-size: 40px
-
