@@ -158,12 +158,6 @@ header .btn {
   #works h1 {
     font-size: 80px;
   }
-  #works .imgbox {
-    margin-left: 50px;
-  }
-  #works .textbox {
-    margin: 40px 0;
-  }
 }
 @media screen and (max-width: 390px) {
   #works h1 {
@@ -202,7 +196,7 @@ header .btn {
   color: white;
 }
 #browse .box {
-  padding: 30px;
+  margin-bottom: 30px;
 }
 #browse .box .imgbox {
   width: 150px;
@@ -270,9 +264,9 @@ header .btn {
     height: 45px;
   }
 }
-@media screen and (max-width: 992px) {
-  #browse .box {
-    padding: 15px 0;
+@media screen and (max-width: 768px) {
+  #browse .box .imgbox {
+    width: 455px;
   }
 }
 @media screen and (max-width: 576px) {
@@ -284,7 +278,7 @@ header .btn {
   }
   #browse .box .imgbox {
     padding: 0;
-    width: 370px;
+    width: 380px;
   }
   #browse .btn {
     padding: 10px 50px;
@@ -296,11 +290,6 @@ header .btn {
   }
   #browse .btn {
     padding: 10px 80px;
-  }
-}
-@media screen and (max-width: 330px) {
-  #browse .box .imgbox {
-    width: 200px;
   }
 }
 
@@ -372,8 +361,7 @@ header .btn {
 }
 
 #support .textbox {
-  width: 100%;
-  padding: 130px 0;
+  height: 100%;
 }
 #support .textbox h1 {
   font-weight: 700;
@@ -392,31 +380,36 @@ header .btn {
   margin: 30px 0 0 40px;
   font-size: 22px;
 }
+#support .imgbox {
+  margin-bottom: 20px;
+}
 #support .bgc {
   background-color: #35b6c1;
 }
-@media screen and (max-width: 576px) {
+@media (min-width: 992px) {
   #support .imgbox {
-    margin-bottom: 20px;
+    margin-bottom: 0;
   }
   #support .textbox {
-    padding: 30px 0 30px 20px;
-  }
-  #support .textbox h1 {
-    font-size: 50px;
-    margin: 50px 40px 0 0;
-  }
-  #support .textbox .btn {
-    padding: 10px 60px;
-    margin: 50px 0 70px 0;
+    padding-top: 0;
+    padding-bottom: 0;
   }
 }
-@media screen and (max-width: 470px) {
-  #support .textbox h1 {
-    margin: 31px 80px 0 0;
+@media (min-width: 576px) and (max-width: 992px) {
+  #support .textbox {
+    padding-bottom: 50px;
+    padding-top: 50px;
   }
   #support .textbox .btn {
-    padding: 10px 75px;
-    margin: 50px 0 20px 0px;
+    margin-top: 50px;
+  }
+  #support .imgbox {
+    height: 390px;
+  }
+}
+@media (max-width: 576px) {
+  #support .textbox {
+    padding-top: 50px;
+    padding-bottom: 50px;
   }
 }/*# sourceMappingURL=style.css.map */

@@ -1,7 +1,6 @@
 #support
     .textbox
-        width: 100%
-        padding: 130px 0
+        height: 100%
         h1
             font-weight: 700
             font-size: 60px
@@ -16,23 +15,26 @@
             padding: 10px 30px
             margin: 30px 0 0 40px
             font-size: 22px
+    .imgbox
+        margin-bottom: 20px
     .bgc
         background-color: #35b6c1
-    @media screen and ( max-width:576px  )
+    @media ( min-width: 992px)
         .imgbox
-            margin-bottom: 20px
+            margin-bottom: 0
         .textbox
-            padding: 30px 0 30px 20px
-            h1
-                font-size: 50px
-                margin: 50px 40px 0 0
-            .btn
-                padding: 10px 60px
-                margin: 50px 0 70px 0
-    @media screen and ( max-width:470px  )
+            padding-top: 0
+            padding-bottom: 0
+
+    @media (min-width: 576px) and ( max-width: 992px)
         .textbox
-            h1
-                margin: 31px 80px 0 0
+            padding-bottom: 50px
+            padding-top: 50px
             .btn
-                padding: 10px 75px
-                margin: 50px 0 20px 0px
+                margin-top: 50px
+        .imgbox
+            height: 390px
+    @media ( max-width: 576px)
+        .textbox
+            padding-top: 50px
+            padding-bottom: 50px
