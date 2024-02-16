@@ -265,9 +265,6 @@ header .btn {
   }
 }
 @media screen and (max-width: 576px) {
-  #browse .btn {
-    padding: 12px 150px;
-  }
   #browse .big {
     padding: 10px 50px;
   }
