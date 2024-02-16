@@ -205,7 +205,7 @@ header .btn {
 #browse .box .textbox {
   text-align: left;
   width: auto;
-  margin-left: 20px;
+  margin-left: 25px;
 }
 #browse .box .textbox .minibox h2 {
   font-size: 22px;
@@ -251,7 +251,7 @@ header .btn {
     flex-direction: column;
   }
   #browse .box .imgbox {
-    width: 333px;
+    width: 220px;
   }
   #browse .box .textbox .minibox {
     flex-direction: column;
@@ -264,12 +264,13 @@ header .btn {
     height: 45px;
   }
 }
-@media screen and (max-width: 768px) {
-  #browse .box .imgbox {
-    width: 455px;
-  }
-}
 @media screen and (max-width: 576px) {
+  #browse .btn {
+    padding: 12px 150px;
+  }
+  #browse .big {
+    padding: 10px 50px;
+  }
   #browse .textbox h1 {
     font-size: 45px;
   }
@@ -278,18 +279,12 @@ header .btn {
   }
   #browse .box .imgbox {
     padding: 0;
-    width: 380px;
-  }
-  #browse .btn {
-    padding: 10px 50px;
+    width: 400px;
   }
 }
-@media screen and (max-width: 390px) {
+@media screen and (max-width: 392px) {
   #browse .box .imgbox {
     width: 300px;
-  }
-  #browse .btn {
-    padding: 10px 80px;
   }
 }
 
